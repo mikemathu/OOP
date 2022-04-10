@@ -1,43 +1,25 @@
-﻿namespace CreatingClasses
+﻿using Properties;
+
+namespace CreatingClasses
 {
-    class Book
+    class Program
     {
-        //Instanct Variables
-        private string title;
-        private string author;
-        private int pages;
-        private int wordCount;
+       static void Main(string[] args)
+        {
+            //New instance of the Book class
+            //using the 1st constructor
+            Book book = new Book("Harry Potter", "J.K Rowling");
 
-        //Constructor. Allows the user of this class to instanciate the instant variables and give them a starting state/initial values
-        public Book(string title, string author)
-        {
-            //class level titile = method level title;
-            this.title = title;
-            this.author = author;
-        }
-        public Book(string title, string author, int pages, int wordCount)
-        {
-            this.title = title;
-            this.author = author;
-            this.pages = pages;
-            this.wordCount = wordCount;
-        }
+            //Using the 2nd constructor
+            //Book book = new Book("Harry Potter", "J.K Rowling", 25, 1000 );
 
-        //Methods
-        //Retrive the current title of the book
-        public string GetTitle()
-        {
-            return title;
-        }
-        //Specify the new title for the book(Change)
-        public void SetTitle(string title)
-        {
-            this.title = title;
-        }
-        //Supply the text of the book and update the word count accordingly
-        public void AssignWordCountFromText(string text)
-        {
-            wordCount = text.Split(' ').Length;
+            //Changed my mind. Let's use the full name.
+            book.SetTitle("Harry Potter and the Half-Blood Price");
+
+            //Now I forgot.What was the title again?
+            Console.WriteLine(book.GetTitle());
+
+
         }
     }
 }
