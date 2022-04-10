@@ -23,5 +23,21 @@
             this.wordCount = wordCount;
         }
 
+        //Methods
+        //Retrive the current title of the book
+        public string GetTitle()
+        {
+            return title;
+        }
+        //Specify the new title for the book(Change)
+        public void SetTitle(string title)
+        {
+            this.title = title;
+        }
+        //Supply the text of the book and update the word count accordingly
+        public void AssignWordCountFromText(string text)
+        {
+            wordCount = text.Split(' ').Length;
+        }
     }
 }
