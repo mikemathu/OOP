@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\C#\\repos\\CSharp step by step\\Properties\\Properties.csproj",
-      "projectName": "Properties",
-      "projectPath": "C:\\C#\\repos\\CSharp step by step\\Properties\\Properties.csproj",
+      "projectUniqueName": "C:\\C#\\repos\\CSharp step by step\\Properties\\OOP.csproj",
+      "projectName": "OOP",
+      "projectPath": "C:\\C#\\repos\\CSharp step by step\\Properties\\OOP.csproj",
       "packagesPath": "C:\\Users\\mike\\.nuget\\packages\\",
       "outputPath": "C:\\C#\\repos\\CSharp step by step\\Properties\\obj\\",
       "projectStyle": "PackageReference",
