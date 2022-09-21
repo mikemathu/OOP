@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PbvtYvPj6deDBMiR+mIJV5Fulb4Fy41IKLlVwS/ZRc2f1J8yLy2tjKu43Zx7XMifQBMkrbjZ1zESsyG6fdWyWw==",
+  "dgSpecHash": "i7ZGkzcePuWy5ZVCeN+7Nhf8zuI/1hS7pKD87G8Y8FtxAdiJIe629YNUJglHt0TWmJg9YjYKy6Z+NfJlRZDMNQ==",
   "success": true,
-  "projectFilePath": "C:\\C#\\repos\\CSharp step by step\\Properties\\OOP.csproj",
+  "projectFilePath": "C:\\C#\\repos\\CSharp step by step\\OOP\\OOP.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

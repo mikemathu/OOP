@@ -8,19 +8,26 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\mike\\.nuget\\packages\\": {}
+    "C:\\Users\\mike\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\C#\\repos\\CSharp step by step\\Properties\\OOP.csproj",
+      "projectUniqueName": "C:\\C#\\repos\\CSharp step by step\\OOP\\OOP.csproj",
       "projectName": "OOP",
-      "projectPath": "C:\\C#\\repos\\CSharp step by step\\Properties\\OOP.csproj",
+      "projectPath": "C:\\C#\\repos\\CSharp step by step\\OOP\\OOP.csproj",
       "packagesPath": "C:\\Users\\mike\\.nuget\\packages\\",
-      "outputPath": "C:\\C#\\repos\\CSharp step by step\\Properties\\obj\\",
+      "outputPath": "C:\\C#\\repos\\CSharp step by step\\OOP\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "C:\\Users\\mike\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

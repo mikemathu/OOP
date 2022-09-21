@@ -17,7 +17,21 @@ namespace CreatingClasses
             book.SetTitle("Harry Potter and the Half-Blood Price");
 
             //Now I forgot.What was the title again?
-            Console.WriteLine(book.GetTitle());
+            //Console.WriteLine(book.GetTitle());
+
+            
+
+
+
+            String name = "Mi";
+
+            char[] a = name.ToCharArray();
+            System.Array.Reverse(a);
+            string r = new string(a);
+
+            int wordCount = name.Split(' ').Length;
+            Console.WriteLine(r);
+
 
 
         }
